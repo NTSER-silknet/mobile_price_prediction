@@ -4,7 +4,6 @@
 import joblib
 pipeline = joblib.load('pipeline.pkl')
 pipeline.predict(df)
-
 ```
 df should contain following columns from from **dwh_coe_data.dict_devices** table:
 - year
